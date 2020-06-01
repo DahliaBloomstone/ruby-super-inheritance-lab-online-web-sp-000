@@ -7,3 +7,6 @@ class Chatty_student < Student
   def raise_hand
     super * 10
     @pick_me = "Pick me!"
+  end
+
+end 
