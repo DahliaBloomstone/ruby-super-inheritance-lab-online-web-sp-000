@@ -5,8 +5,9 @@ class Chatty_student < Student
   end
 
   def raise_hand
-    Super
-    @pick_me = "Pick me!"
+    10.times do 
+    super
+    puts "Pick me!"
   end
 
 end
